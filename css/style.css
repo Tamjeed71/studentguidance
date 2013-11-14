@@ -15,7 +15,7 @@ body {
  .container{
 	  width:80%;
 	
-	margin-top:40px;
+        margin-top:40px;
  }
  .header{
 	  height:70px;
@@ -34,9 +34,9 @@ body {
 #page-wrap {
 	/* width: 70%;
 	  margin: 50px auto;*/
-	   }
+}
 a { 
-text-decoration: none; 
+	text-decoration: none; 
 }
 
 .top10 a{
@@ -44,49 +44,53 @@ text-decoration: none;
 }
 
 h3 { 
-margin: 0 0 10px 0; }
+	margin: 0 0 10px 0; 
+}
 
- { 
-margin: 0 0 10px 0; }
-.tabs { list-style: none; 
-overflow: hidden;
- padding-left: 1px;
-margin:auto;
- 
 
+.tabs { 
+	list-style: none; 
+	overflow: hidden;
+	 padding-left: 1px;
+	margin:auto;
  }
+ 
 .tabs li {
- display: inline;
-  
+	 display: inline;
  }
+ 
 .tabs li a {
- display: block; 
- float: left; 
- padding: 4px 8px; 
- color: black; 
- border: 1px solid #ccc; 
- background: #eee; margin: 0 0 0 -1px;
+	 display: block; 
+	 float: left; 
+	 padding: 4px 8px; 
+	 color: black; 
+	 border: 1px solid #ccc; 
+	 background: #eee; margin: 0 0 0 -1px;
  }
+ 
 .tabs li a.current { 
-background: white;
-background-image:url(../images/bg01.png);
- border-bottom: 0; 
- position: relative; 
- top:2px; 
- z-index:2; 
+	background: white;
+	background-image:url(../images/bg01.png);
+	 border-bottom: 0; 
+	 position: relative; 
+	 top:2px; 
+	 z-index:2; 
  }
 
-.box-wrapper { -moz-box-shadow: 0 0 20px black;
- -webkit-box-shadow: 0 0 20px black; 
- padding: 20px;
- 
-  background: #white; 
-  background-image:url(../images/bg01.png);
- border: 1px solid #ccc;
-  margin: -1px 0 0 0;
-  height: 310px;
-   position: relative; 
-border-radius:3px;}
+
+.box-wrapper { 
+	  -moz-box-shadow: 0 0 20px black;
+	 -webkit-box-shadow: 0 0 20px black; 
+	 padding: 20px;
+	 
+	  background: #white; 
+	  background-image:url(../images/bg01.png);
+	 border: 1px solid #ccc;
+	  margin: -1px 0 0 0;
+	  height: 310px;
+	   position: relative; 
+	border-radius:3px;
+}
 .content-box {
 	overflow: hidden;
 	position: absolute;
@@ -108,9 +112,15 @@ width="290px";
 }
 .current { z-index: 100; }
 
-.col-one{ width: 25%; float: left; position: relative; top: 350px;margin:7px; }
-.col-two, .col-three{ width: 30%; float: left; position: relative; top: 350px;margin:7px; }
-.col-one, .col-two, { margin-right: 4%; }
+.col-one{ 
+	width: 25%; float: left; position: relative; top: 350px;margin:7px; 
+}
+.col-two, .col-three{ 
+	width: 30%; float: left; position: relative; top: 350px;margin:7px; 
+}
+.col-one, .col-two, { 
+	margin-right: 4%; 
+}
 
 .header h2 {
 	font-size: 34px;
@@ -150,13 +160,13 @@ width="290px";
 {
 	line-height:20px;
 	outline-color:#333;
-border:thin;
-border-width:thin;
-height:13px;
-align:left;
-cursor:pointer;
+	border:thin;
+	border-width:thin;
+	height:13px;
+	align:left;
+	cursor:pointer;
 }
 #sch
 {
-display:none;
+	display:none;
 }
