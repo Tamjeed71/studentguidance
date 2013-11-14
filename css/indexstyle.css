@@ -13,30 +13,20 @@ body {
 	
  }
  .container{
-	  width:80%;
-	
+        width:80%;
 	margin-top:40px;
  }
  .header{
-	  height:70px;
-	  background-image:url(../images/bg01.png);
-	/*  border-top-left-radius:3px;
-	  border-top-right-radius:3px;
-	margin-top:50px;
-	
-	 margin-left:15%;
-	 margin-right:15%;*/
+         height:70px;
+         background-image:url(../images/bg01.png);
 	 border-radius:5px;
 	 background-color:#3a7b5f;
  	 font-family:Arial, Helvetica, sans-serif;
 	 text-decoration:blink;
  }
-#page-wrap {
-	/* width: 70%;
-	  margin: 50px auto;*/
-	   }
+
 a { 
-text-decoration: none; 
+	text-decoration: none; 
 }
 
 .top10 a{
@@ -44,48 +34,48 @@ text-decoration: none;
 }
 
 h3 { 
-margin: 0 0 10px 0; }
+	margin: 0 0 10px 0;
+}
 
- { 
-margin: 0 0 10px 0; }
-.tabs { list-style: none; 
-overflow: hidden;
- padding-left: 1px;
-margin:auto;
- 
 
+.tabs {
+	list-style: none; 
+	overflow: hidden;
+	 padding-left: 1px;
+	margin:auto;
  }
 .tabs li {
- display: inline;
+ 	display: inline;
   
  }
 .tabs li a {
- display: block; 
- float: left; 
- padding: 4px 8px; 
- color: black; 
- border: 1px solid #ccc; 
- background: #eee; margin: 0 0 0 -1px;
+	 display: block; 
+	 float: left; 
+	 padding: 4px 8px; 
+	 color: black; 
+	 border: 1px solid #ccc; 
+	 background: #eee; margin: 0 0 0 -1px;
  }
 .tabs li a.current { 
-background: white;
-background-image:url(../images/bg01.png);
- border-bottom: 0; 
- position: relative; 
- top:2px; 
- z-index:2; 
+	background: white;
+	background-image:url(../images/bg01.png);
+	border-bottom: 0; 
+	position: relative; 
+	top:2px; 
+	z-index:2; 
  }
 
-.box-wrapper { -moz-box-shadow: 0 0 20px black;
- -webkit-box-shadow: 0 0 20px black; 
- padding: 20px;
-   background: #white; 
-   background-image:url(../images/bg01.png);
-   border: 1px solid #ccc;
-   margin: -1px 0 0 0;
-   height: 200px;
-   position: relative; 
-  border-radius:3px;
+.box-wrapper {
+	-moz-box-shadow: 0 0 20px black;
+ 	-webkit-box-shadow: 0 0 20px black; 
+ 	padding: 20px;
+   	background: #white; 
+   	background-image:url(../images/bg01.png);
+        border: 1px solid #ccc;
+   	margin: -1px 0 0 0;
+   	height: 200px;
+	position: relative; 
+	border-radius:3px;
  }
 .content-box {
 	overflow: hidden;
@@ -98,24 +88,31 @@ background-image:url(../images/bg01.png);
 }
 
 #list a{
-text-decoration: none;
-color:#000;
+	text-decoration: none;
+	color:#000;
 }
 
 .admis{
 
-width="290px";
+	width="290px";
 }
 
-.admis tr
-{
-		 height="40px";
+.admis tr{
+	height="40px";
 }
 
-.current { z-index: 100; }
-	.col-one{ width: 60%; float: left; position: relative; top: 350px;margin:7px; }
- .col-three{ width: 30%; float: left; position: relative; top: 350px;margin:7px; }
-.col-one, .col-three { margin-right: 4%; }
+.current {
+	z-index: 100;
+}
+.col-one{ 
+	width: 60%; float: left; position: relative; top: 350px;margin:7px;
+}
+ .col-three{
+ 	width: 30%; float: left; position: relative; top: 350px;margin:7px;
+ }
+.col-one, .col-three {
+	margin-right: 4%;
+}
 
 .header h2 {
 	font-size: 34px;
@@ -125,16 +122,10 @@ width="290px";
 .rankhome{
 	 border-radius:4px;
 }
-.footer
- {
+.footer {
 	  height:70px;
 	  margin-top:10px;
-	 
-	  border-radius:3px;
-	/*margin-top:50px;
-	
-	 margin-left:15%;
-	 margin-right:15%;*/
+	 border-radius:3px;
 	 background-color:#3a7b5f;
  	 font1-family:Arial, Helvetica, sans-serif;
 	 background-image:url(../images/bg01.png); 
@@ -144,41 +135,36 @@ width="290px";
 	color: #999;
 }
 
-.search
-{
+.search{
 	width: 200px;
 	height: 21px;
 	background-color:beige;
 }
 
-.top10 tr td
-{
-line-height:20px;
-outline-color:#333;
-border:thin;
-border-width:thin;
-height:13px;
-align:left;
+.top10 tr td{
+	line-height:20px;
+	outline-color:#333;
+	border:thin;
+	border-width:thin;
+	height:13px;
+	align:left;
 
 }
 
-#sch
-{
-display:none;
+#sch{
+	display:none;
 }
-#rating
-{
+#rating{
  
-  background: #white; 
-  background-image:url(../images/bg01.png);
- border: 1px solid #ccc;
+	  background: #white; 
+	  background-image:url(../images/bg01.png);
+	  border: 1px solid #ccc;
 }
 
-#list
-{
+#list{
 	
-  width:100%;
-  background: #white;; 
-  background-image:url(../images/bg01.png);  
-  border: 1px solid #ccc;
+	  width:100%;
+	  background: #white;; 
+	  background-image:url(../images/bg01.png);  
+	  border: 1px solid #ccc;
 }
