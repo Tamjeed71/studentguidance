@@ -14,31 +14,7 @@
 		<script type="text/javascript" src="js/bootstrap.js"></script>
 		<script type="text/javascript" src="js/mycode.js"></script>
 		<style type="text/css">	</style>
-		<script>
-		/*	function validateRank()
-			{
-				if(("/^[0-9]+$/"))
-					{
-						alert("Rank should be a number ")
-						return false;
-					}
-				else
-				{
-					return true;
-				}
-			}
-			checkcollege.php<SCRIPT language=Javascript>
-       
-       function isNumberKey(evt)
-       {
-          var charCode = (evt.which) ? evt.which : event.keyCode;
-          if (charCode != 46 && charCode > 31 
-            && (charCode < 48 || charCode > 57))
-             return false;
-
-          return true;
-       }
-       	</script>
+	
 <script type="text/javascript">
     document.getElementById("myButton").onclick = function () {
         location.href = "checkcollege.php";
@@ -77,7 +53,7 @@
 									<div class="col-three col">
 										<form action="checkcollege.php" method="post" onsubmit="validateRank('r')">
 											<p>Select College as per your PGCET rank.We will provide List of colleges where you will get sit as per your Rank.<br /></p><br/>
-                                            <table class="rankhome" width="300px" height="130px" border="0px" style="border-style:solid; border-color:#000; border-width: middle; border-collapse:separate;" align="center" bordercolordark="#666666" bgcolor="#3a7b5f"> 
+                                        						 <table class="rankhome" width="300px" height="130px" border="0px" style="border-style:solid; border-color:#000; border-width: middle; border-collapse:separate;" align="center" bordercolordark="#666666" bgcolor="#3a7b5f"> 
 													<tr height="25px"><td>Select Category</td>
 														<td width="161"><input type="radio" name="c" value="GM" />GM
 																		<input type="radio" name="c" value="obc" />OBC
@@ -89,22 +65,10 @@
 														<?php //echo "<p class='note'>".$message_name."</P>"; ?>
 														<?php //echo "<p class='note'>".$message_name1."</P>"; ?>
 													<tr><td colspan=" 2" align="center"> <input type="submit" value="submit" /> </td></tr>
-											</table>
-											<!--
-											<table class="rankhome" width="320px" height="140px" border="0px" style="border-style:solid; border-color:#000; border-width: middle; border-collapse:separate;" align="center" bordercolordark="#666666" bgcolor="#3a7b5f"> 
-												<tr height="25px"><td>Select Category</td>
-													<td width="161"><input type="radio" name="cat" value="GM" />GM
-																	<input type="radio" name="cat" value="obc" />OBC
-																	<input type="radio" name="cat" value="sc"/> SC/SC</td></tr><br />
-												<tr height="25px"><td>Select Course</td>
-													<td width="161"><input type="radio" name="course1" value="BE" />BE
-													<input type="radio" name="course1" value="MCA" />MCA</td></tr><br />
-													<tr height="25px"><td width="125">PGCET Rank</td>
-													<td><input type="text"  name="rank" placeholder="Enter Youe PGCET Rank "/></td></tr>
-												<tr><td colspan=" 2" align="center"> <input type="submit" value="submit" /></td></tr>
-											</table>-->
+												</table>
+										
 										</form>                  
-                    				</div>
+                    							</div>
 								</div>           
 								<div id="four" class="content-box">
 									<div class="col-one col">
@@ -113,7 +77,7 @@
 												If you not attended the CET exam don,t worry, we will help you to take admission in good reputted college.
 												just you need to fill the form so we can directly submit your application to colleges.                  </p>
 									</div>
-									<div class="col-two col">
+									     <div class="col-two col">
 										<form class="admis" action="admission.php" method="post">
 											<table width="290px">
 												<tr ><td>First Name:</td><td><input type="text" name="fname"/> </td></tr>                      
@@ -132,8 +96,8 @@
 																								<option>CET</option>
 																								<option>Non-CET</option></select> </td></tr><tr height="30px">
 												<td colspan="2">Marks:<input type="text" name="marks1"/>%</td></tr>
-                                            </table>
-									</div>
+                                        						 </table>
+										</div>
 									<div class="col-three col">
 										<table width="260px">
 											<tr height="30px"><td>Date of Birth</td><td><input type="text" name="dob"/></td></tr>
@@ -148,8 +112,6 @@
                     
 									</div>
 								</div>
-
-                
 								<div id="five" class="content-box">
 									<div class="col-one col">
 										<img src="images/Cmrit_logo.jpg" alt="" />
@@ -159,7 +121,7 @@
 									<div class="col-three col">
 									</div>
 								</div>  
-                				<div id="two" class="content-box">
+                					<div id="two" class="content-box">
 									<div class="col-one col">
 										<h3 id="tt">Top 10 Colleges</h3>
 										<table class="top10" align="left">
@@ -174,7 +136,7 @@
 												<tr><td id="sit" class="hide3">Siddaganga Institute of Technology<<hr /></td></tr>
 												<tr><td id="rnsit" class="hide3">RNS Institute of Technology<hr /></td></tr>
 												<tr><td id="sjc" class="hide3">S J College of Enginee<hr /></td></tr>
-                                            </table>
+                                            					</table>
 									</div>
 									<div class="col-two col">
 										<span id="bms2" class="hide2"><br><br><img src="images/bms.jpg" alt="" /></span>
@@ -190,7 +152,7 @@
 											
 									</div>
 									<div class="col-three col">
-                                  		  <span id="bms1" class="hide1"><h4>About B.M.S College of Engineering</h4><br><p align="justify"><p> The B. M. Sreenivasaiah College of Engineering, is one of the most reputed engineering college in Bangalore, Karnataka, India. The college started was one of the first private sector initiatives in technical education in India. It is located on the Bull Temple Road, opposite to the famous Bull Temple. Though a private engineering college, it is partially funded by the Government of Karnataka. It has the largest student population of engineering colleges in Karnataka, drawing students from other states of India and abroad more information<a href="http://www.bmsce.in/‎">click here</a>.</p> 
+                                  						  <span id="bms1" class="hide1"><h4>About B.M.S College of Engineering</h4><br><p align="justify"><p> The B. M. Sreenivasaiah College of Engineering, is one of the most reputed engineering college in Bangalore, Karnataka, India. The college started was one of the first private sector initiatives in technical education in India. It is located on the Bull Temple Road, opposite to the famous Bull Temple. Though a private engineering college, it is partially funded by the Government of Karnataka. It has the largest student population of engineering colleges in Karnataka, drawing students from other states of India and abroad more information<a href="http://www.bmsce.in/‎">click here</a>.</p> 
 										  </span>
 										  <span id="rv1" class="hide1"><h4>About R.V. College of Engineering</h4><br><p align="justify">R.V. College of Engineering is an engineering college located in Bangalore. RCVE rated one amongst the top ten self-financing Engineering institutions in the country. The college provides an ideal ambience to stimulate the teaching-learning process, helping in bringing out skilled and disciplined Engineers. Now RVCE plans to rapidly expand its R & D footprint and industry academic collaboration. Towards this RVCE has set a vision “To Be a Global Leader in Quality Technical Education, Research, & Innovation through Team Work more information <a href="http://www.rvce.edu.in/index.php">click here</a>.</p>
 										  </span>
@@ -225,9 +187,9 @@
 												<tr><td><span id="post1">POST MATRIC Scholarship Scheme<hr /></span></td></tr>
 												<tr><td id="karna">Karnataka Schoolarship<hr /></td></tr>
 												<tr><td><span id="loan1">Govt Education Loan Scheme<hr /></span></td></tr>
-                        					</table>
+                        								</table>
 									</div>
-									<div class="col-three col">
+									    <div class="col-three col">
 										<span id="utteja">
 												Those who complete S.S.L.C. & take admission to 1st year PUC - Rs.3,000/- per year. ( 2nd PUC Students are not eligible )
 												Those who complete PUC-II & take admission to degree courses Rs.4,000/- per year.
@@ -248,40 +210,16 @@
 												<a href="http://kmdc.kar.nic.in/Arivu.html">Click here</a> to apply Online.</p>
 										</span>
 												<p>
-												<span id="post">
+										<span id="post">
 												 Objective -The objective of the scheme is to award scholarships to meritorious students belonging to
 												economically weaker sections of minority community so as to provide them better opportunities for higher education, 
 												increase their rate of attainment in higher education and enhance their employability  <a href="http://164.100.167.13/postmatric/">Click here</a> to apply.</p>	
-						                </span>
+						        			  </span>
 											<p>
 										<span id="merit1">
 
 										</span>	</p>
 
-<?php
-/*/ define variables and set to empty values
-	$emailErr  = "";
-	$email =  "";
-	if (empty($_POST["email"])){
-		$emailErr = "Email is required";
-		}
-		else
-		{
-		$email = test_input($_POST["email"]);
-			// check if e-mail address syntax is valid
-		if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/",$email)){
-			$emailErr = "Invalid email format"; 
-       }
-     }
-	function test_input($data){
-		$data = trim($data);
-		$data = stripslashes($data);
-		$data = htmlspecialchars($data);
-		return $data;
-	}*/
-?>
-
-                     
 											<h4>Get Connected with us through email-id to get updates of all scholorships.</h4><br />
 											Enter Your Email-id Here<br />
 											<form action="aa.php" method="post" ><span class="error"></span>
